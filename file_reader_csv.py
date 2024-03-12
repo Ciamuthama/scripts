@@ -1,7 +1,5 @@
 import csv
 
-MONTH = "june"
-
 def financial_manager(file):
     sum =0
     trade_indesis = []
@@ -12,7 +10,10 @@ def financial_manager(file):
         
         for row in csv_reader:
             name = row[4]
-            amount = float(row[7])
+            try:
+                amount = float(row[7]) 
+            except ValueError:
+                amount = 0
             date = row[1]
             
             trade_indes = (date,amount,name)
@@ -22,7 +23,4 @@ def financial_manager(file):
         print('')
         return trade_indesis
     
-print(financial_manager(f"overseas_{MONTH}.csv")) 
-
-
-
+print(financial_manager(f"overseas.csv"))
