@@ -6,11 +6,11 @@
 ![nice](image.png)
 
 ```pdf_to_audio```
-convert any pdf to audio file.
+- convert any pdf to audio file.
 
 ![alt text](image-1.png)
 
 ```CSV reader```
-Read any CSV file
+- Read any CSV file
 
 ![alt text](image-2.png)
