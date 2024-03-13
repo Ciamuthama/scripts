@@ -1,7 +1,9 @@
 import os
 import shutil
 
-path = input("Enter the path of directory: ")
+
+path = ("D:\Download")
+
 files = os.listdir(path)
 
 for file in files:

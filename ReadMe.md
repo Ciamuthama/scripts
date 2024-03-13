@@ -14,3 +14,9 @@
 - Read any CSV file
 
 ![](image-2.png)
+
+
+```img_editor```
+- Edit any image file using Pillow Python library
+
+![img_editor](image-3.png)
